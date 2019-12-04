@@ -1,11 +1,9 @@
-/* package codechef; // don't place package name! */
+// Java program to illustrate 
+// analog clock using Applets 
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
 import java.applet.Applet; 
 import java.awt.*; 
-
+import java.util.*; 
 
 public class analogClock extends Applet { 
 
@@ -106,15 +104,5 @@ public class analogClock extends Applet {
 		// Black color hour hand 
 		g.setColor(Color.black); 
 		g.drawLine(400, 200, 400 + x, 200 - y); 
-    }
+	} 
 } 
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-        // your code goes here
-        analogClock a = new analogClock();
-        a.init();
-	}
-}
